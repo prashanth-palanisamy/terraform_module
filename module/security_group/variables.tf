@@ -37,3 +37,11 @@ variable "egress_rules" {
   ))
   description = "Map of ingress rules"
 }
+
+variable "vpc_id" {
+  default = ""
+}
+
+variable "name" {
+  default = ""
+}
