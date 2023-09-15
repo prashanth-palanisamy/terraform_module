@@ -2,23 +2,12 @@ variable "name" {
   default = ""
 }
 
-variable "subnet_cidr" {
-  type    = string
-  default = ""
-
-}
-
-variable "vpc_id" {
-  default = ""
-
-}
-
 variable "env" {
   default = ""
 
 }
 
-variable "availability_zone" {
+variable "vpc_cidr" {
   default = ""
 
 }
